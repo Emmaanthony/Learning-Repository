@@ -3,6 +3,8 @@ su betty
 
 chown hello betty
 
+echo if $((50*2)) is greater than | echo then $((2*4)) is lesser than 50
+
 git add .
 git commit -m 'just trying something'
 git push
